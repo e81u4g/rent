@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>延吉交通 - 登入頁</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+      .page-container {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(./img/grey-metallic-jeep-with-blue-stripe-it.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+      }
+      .modal {
+        background-color: rgba(0,0,0,0.1);
+      }
+    </style>
+    <div class="page-container">
+      <div class="modal modal-signin  d-block py-5" tabindex="-1" role="dialog" id="modalSignin">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+              <h1 class="text-center fw-bold mb-1 w-100">延吉交通</h2>
+            </div>
+            <div class="modal-body p-5 pt-0">
+              <form class="">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">帳號(信箱)</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">密碼</label>
+                </div>
+                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary">登入</button>
+                <hr class="my-4">
+                <h2 class="fs-6 fw-bold mb-3 text-secondary">其他方式登入</h2>
+                <button class="w-100 py-2 mb-2 btn btn-outline-success rounded-3 fw-bold">
+                  Line
+                </button>
+                <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3 fw-bold">
+                  FB
+                </button>
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3 fw-bold">
+                  Google
+                </button>
+              </form>
+              <hr class="my-4">
+              <h2 class="fs-6 fw-bold mb-3 text-secondary">第一次使用? <a href="#">註冊</a></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
